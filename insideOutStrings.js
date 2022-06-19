@@ -7,16 +7,6 @@
 // 'taxi' would become 'atix' 'taxis' would become 'atxsi'
 
 function insideOut(x){
-
-    /*
-    split the x into each word and convert to an array
-    if
-      x.length < 4, do nothing
-    else
-      if x.length is even, split x in half and reverse than join
-      if x.length is odd, 
-    return and join everything back together
-    */
     
     return x.split` `.map(v=>{
       if (v.length<4) return v
@@ -31,7 +21,15 @@ function insideOut(x){
     }).join` `
   
   }
-  
+     /*
+    split the x into each word and convert to an array
+    if
+      x.length < 4, do nothing
+    else
+      if x.length is even, split x in half and reverse than join
+      if x.length is odd, 
+    return and join everything back together
+    */
   /*
   input:
     string of words //are they case sensitive?
