@@ -29,17 +29,6 @@ function isValidIP(str) {
       , true)
   }
 
-  or
-
-
-
-
-
-
-
-
-
-
 
 function isValidIP(str) {
     // split string on period
