@@ -40,10 +40,7 @@ if (val == "d") {
   num = num*num;
 } else if (val == "o") {
   response.push(num);
-}
-    
+}   
 });
-
 return response;
-  
 }
