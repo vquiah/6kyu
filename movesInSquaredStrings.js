@@ -50,7 +50,7 @@ let rot = s => [...s].reverse().join``,
     selfieAndRot = s => (s = s.split`\n`.map(x=>x+'.'.repeat(x.length)).join`\n`) && (s + '\n' + rot(s)),
     oper = (f, s) => f(s);
 
-or 
+
 
 function rot(strng) {
     return strng.split('\n')
