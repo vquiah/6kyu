@@ -18,6 +18,5 @@
 
 // arrayDepth([2.0, [2, 0], 3.7, [3, 7], 6.7, [6, 7]]) // returns 2
 
-
 const arrayDepth = array =>
   array.reduce((acc, i) => (Array.isArray(i) ? arrayDepth(i) + 1 : acc), 1);
