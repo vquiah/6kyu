@@ -5,9 +5,6 @@
 
 // solve("1341") = 7. See test cases for more examples.
 
-// Good luck!
-
-
 function solve(str){
     let len = str.length;
            let count = 0;
@@ -42,6 +39,5 @@ function solve(str){
    - will the input string always be provided? -- yes
    - will the input string ever be an empty string? -- no
    - will the input string only contain num? -- yes
-   
    
    */
