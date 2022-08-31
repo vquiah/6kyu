@@ -15,8 +15,6 @@
 // First there are some static tests, later on random tests too...
 
 
-
-
 function calculateString(st) {
     const validCharacterString = "0123456789+-*/.";
     const expression = st.split("").filter((character) => validCharacterString.includes(character) === true).join("");
@@ -25,7 +23,6 @@ function calculateString(st) {
     return result;
   }
 
-  or
 
   function calculateString(st){
     let eq = st.split('').filter(char => !isNaN(Number(char)) || char === '.' || char === '+' || char === '-' || char === '*' || char === '/').join('')
