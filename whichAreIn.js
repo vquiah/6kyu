@@ -13,7 +13,6 @@ returns ["arp", "live", "strong"]
 a2 = ["lively", "alive", "harp", "sharp", "armstrong"]
 
 returns []
-
 Notes:
 Arrays are written in "general" notation. See "Your Test Cases" for examples in your language.
 
@@ -22,7 +21,6 @@ In Shell bash a1 and a2 are strings. The return is a string where words are sepa
 Beware: r must be without duplicates.
 Don't mutate the inputs.
 */
-
 function inArray(array1,array2){
     return array1.filter((x) => array2.some((y) => y.includes(x))).sort()
   }
