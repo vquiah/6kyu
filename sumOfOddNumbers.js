@@ -10,3 +10,15 @@
 
 // 1 -->  1
 // 2 --> 3 + 5 = 8
+
+
+function rowSumOddNumbers(n) {
+    return Math.pow(n, 3);
+  }
+  /*
+  input: odd int
+  output: single int
+  goal: calculate the sum of the nums in the nth row 
+  
+  
+  */ 
