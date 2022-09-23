@@ -29,3 +29,8 @@
 
 // The order of the properties in the objects does not matter (except in COBOL).
 // The input array will always be valid and formatted as in the example above.
+
+function greetDevelopers(list) {
+    list.map(z=>z.greeting= `Hi ${z.firstName}, what do you like the most about ${z.language}?`)
+    return list
+   }
