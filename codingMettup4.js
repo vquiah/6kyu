@@ -17,3 +17,42 @@
 // Notes:
 
 // The input array will always be valid and formatted as in the example above.
+
+
+function getFirstPython(list) {
+    let l = list.find(a=> a.language === 'Python' )
+    return l ? `${list.firstName},${list.country}` : `There will be no Python developers`
+  }
+  
+
+
+  
+  function getFirstPython(list) {
+  let l = list.find(a=> a.language === 'Python' ) 
+  console.log(l)
+    if(l){
+      return `${l.firstName}, ${l.country}`
+    }else{
+      return  `There will be no Python developers`
+    }
+  }
+  /*
+  input: array of objects
+  output: string
+  goal: return firstName and country of Python dev who sigbed no,
+    -return 'there will be no python dev' if none signed up
+  rules/constraits: input array will always be valid
+  questions:
+  example: 
+    var list1 = [
+    { firstName: 'Mark', lastName: 'G.', country: 'Scotland', continent: 'Europe', age: 22, language: 'JavaScript' },
+    { firstName: 'Victoria', lastName: 'T.', country: 'Puerto Rico', continent: 'Americas', age: 30, language: 'Python' },
+    { firstName: 'Emma', lastName: 'B.', country: 'Norway', continent: 'Europe', age: 19, language: 'Clojure' }
+  ];
+  will return Victoria, Puerto Rico
+  
+  psuedocode:
+    filter thru the array of object
+    
+  
+  */ 
