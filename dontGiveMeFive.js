@@ -25,6 +25,8 @@ function dontGiveMeFive(start, end) {
     return count
   }
 
+  or 
+
   function dontGiveMeFive(start, end){
     let res = [];
     for (let i = start; i <= end; i++) {
@@ -32,6 +34,7 @@ function dontGiveMeFive(start, end) {
     }
     return res.length;
   }
+or 
 
   function dontGiveMeFive(start, end) {
     let count = 0;
