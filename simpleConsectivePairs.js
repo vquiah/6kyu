@@ -12,11 +12,6 @@
 
 // Good luck!
 
-
-
-
-
-
 function pairs(ar){
     const arr1=[];
      for (let i=0;i<ar.length;i+=2){
