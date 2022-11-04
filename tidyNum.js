@@ -6,6 +6,7 @@
 
 const tidyNumber = (n, str = [...String(n)].sort((a,b)=> a - b).join('')) => str === String(n)
 
+
 or 
 
 const tidyNumber = n => {
