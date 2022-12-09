@@ -6,7 +6,7 @@
 // "riley" --> "Hello Riley!"
 // "JACK"  --> "Hello Jack!"
 
-var greet = function(name) {
+let greet = function(name) {
     let n = name[0].toUpperCase()+ name.slice(1)
   return `Hello ${n}!`
   };
