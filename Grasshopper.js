@@ -14,8 +14,9 @@
 // 16/4 = 4
 // 3. The mean (or average) of this list is 4
 
-var findAverage = function (nums) {
+let findAverage = function (nums) {
     let sum = nums.reduce((a,b)=>a+b,0)/nums.length
     console.log(sum)
      return sum
+
    }
