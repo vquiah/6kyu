@@ -6,6 +6,6 @@ function spacify(str) {
     return str.split('').join(' ')
    }
 
-   or 
+
 
    const spacify = str => str.split('').join(' ')
