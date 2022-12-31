@@ -20,7 +20,7 @@ function getLengthOfMissingArray(arrArr) {
     return 0
    }
    let i;
-   for ( i = 0; i<result.length; i++){
+   for (  i = 0; i<result.length; i++){
     if(result[i+1] != result[i]+1){
         return result[i]+1
     }
