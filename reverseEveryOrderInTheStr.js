@@ -10,3 +10,32 @@ function reverse(str){
     return (str == false) ? '' : challenge
     
     }
+
+
+
+    function reverse(str){
+  
+        let arr = str.split(" "); 
+      
+        for(var i = 1; i<arr.length; i+=2){
+            arr[i] = arr[i].split('').reverse().join(""); 
+        }
+        
+        return arr.join(" ").trim(); 
+        
+      }
+
+
+      function reverse(string) {
+        return string
+          .split` `
+          .map((w, i) => i & 1 ? [...w].reverse().join`` : w)
+          .join` `
+          .trim();
+      }
+
+      const reverse=str=>str.trim().split(' ').map((e,i)=> i%2==0 ? e : e.split('').reverse().join('')).join(' ');
+
+      let reverse = str =>
+  str.trim().split(` `).map((x, i) => (i%2 !== 0)
+  ? x.split(``).reverse().join(``) : x).join(' ');
