@@ -20,9 +20,9 @@
 
 
 function upArray(arr){
-    if(!arr.length || arr.some(x => x < 0 || x > 9)) return null
-    let a = arr.slice()
-    for(let i = a.length - 1; i >= 0; i--){
+   if(!arr.length || arr.some(x => x < 0 || x > 9)) return null
+   let a = arr.slice()
+   for(let i = a.length - 1; i >= 0; i--){
       a[i] += 1
       if(a[i] < 10) break
       else{
@@ -32,4 +32,3 @@ function upArray(arr){
     }
     return a
   }
-  
