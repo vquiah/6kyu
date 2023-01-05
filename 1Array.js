@@ -5,7 +5,7 @@
 // Return nil (or your language's equivalent) for invalid inputs.
 
 // Examples
-// Valid arrays
+// Valid arrays includes
 
 // [4, 3, 2, 5] would return [4, 3, 2, 6]
 // [1, 2, 3, 9] would return [1, 2, 4, 0]
@@ -17,7 +17,6 @@
 // [1, -9] is invalid because -9 is not a non-negative integer
 
 // [1, 2, 33] is invalid because 33 is not a single-digit integer
-
 
 function upArray(arr){
    if(!arr.length || arr.some(x => x < 0 || x > 9)) return null
