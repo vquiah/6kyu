@@ -22,7 +22,7 @@ function numberOfPairs(gloves){
     return pairs
  }
 
- or 
+//  or 
 
  function numberOfPairs(gloves) {
     let counter = 0;
