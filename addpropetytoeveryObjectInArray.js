@@ -31,4 +31,6 @@
 // questions.map(function(q) {
 //   q.usersAnswer = null
 // })
+
+
 questions.map(q=>q.usersAnswer = null)
