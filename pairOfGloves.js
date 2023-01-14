@@ -22,8 +22,6 @@ function numberOfPairs(gloves){
     return pairs
  }
 
-//  or 
-
  function numberOfPairs(gloves) {
     let counter = 0;
     let copyGloves = [...gloves].sort();
